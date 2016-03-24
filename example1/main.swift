@@ -19,3 +19,25 @@ for var i in 1..<10{
 
 print("\(a)+\(b)=\(c)")
 
+var i:Int
+for i=1;i<10;i++ {
+    print("\(i)")
+}
+
+while i<10 {
+    print("\(i)")
+    i++
+}
+
+
+//无参函数
+func hello(){
+    print("hello!")
+}
+hello()
+
+func add(x:Int,y:Int){
+    print("\(x)+\(y)=\(x+y)")
+}
+
+add(10,y:20)
